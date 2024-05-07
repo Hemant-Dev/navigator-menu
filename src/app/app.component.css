@@ -1,0 +1,24 @@
+.navigator {
+  background-color: lime;
+  height: 90vh;
+  h1 {
+    text-align: center;
+  }
+}
+
+.navigator ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  li {
+    background-color: red;
+    padding: 10px;
+    width: 60%;
+    cursor: pointer;
+  }
+  li a {
+    text-decoration: none;
+  }
+}
